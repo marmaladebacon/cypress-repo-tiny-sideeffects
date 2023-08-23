@@ -2,6 +2,7 @@
   "name": "cypress-test-tiny",
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
+  "sideEffects": false,
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
@@ -14,10 +15,12 @@
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
-  "devDependencies": {
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "typescript": "^5.1.6"
   }
 }
