@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom"],
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "noUncheckedIndexedAccess": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "es2020"
+    },
+    "include": ["**/*.ts"]
+}
+
+  

@@ -23,3 +23,5 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+// @ts-ignore
+Cypress.Commands.add('customUpperCase', (s) => cy.wrap(s.toUpperCase()));
